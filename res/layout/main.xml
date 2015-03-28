@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/main_layout">
+<ScrollView
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/main_scroll_view">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:id="@+id/sub_main_layout">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:gravity="center_horizontal" android:text="@string/app_title" android:textSize="10pt"/>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/l_ip_addr" android:textSize="8pt" android:id="@+id/t_ip_addr"></TextView>
+<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="EditText" android:id="@+id/e_ip_addr"></EditText>
+<TextView android:textSize="8pt" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/l_net_mask" android:id="@+id/t_net_mask"></TextView>
+<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="EditText" android:id="@+id/e_net_mask"></EditText>
+<LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent">
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/b_shift_left" android:id="@+id/b_shift_left"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/b_by_class" android:id="@+id/b_by_class"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/b_shift_right" android:id="@+id/b_shift_right"></Button>
+</LinearLayout>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/l_net_addr" android:textSize="8pt" android:id="@+id/t_net_addr"></TextView>
+<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="EditText" android:id="@+id/e_net_addr" android:editable="false"></EditText>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="8pt" android:text="@string/l_broad_addr" android:id="@+id/t_broad_addr"></TextView>
+<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="EditText" android:id="@+id/e_broad_addr" android:editable="false"></EditText>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

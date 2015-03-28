@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, NMask!</string>
+    <string name="app_name">NMask</string>
+    <string name="app_title">NetMask Assistant</string>
+    <string name="l_ip_addr">IP Address</string>
+    <string name="l_net_mask">Network Mask</string>
+    <string name="l_net_addr">Network Address</string>
+    <string name="l_broad_addr">Broadcast Address</string>
+    <string name="b_shift_left">Shift Left</string>
+    <string name="b_by_class">By Class</string>
+    <string name="b_shift_right">Shift Right</string>
+    <string name="p_500_mseconds">0.5 seconds</string>
+    <string-array name="l_pref_delay_entries">
+        <item>0.5 Seconds</item>
+        <item>1.0 Seconds</item>
+        <item>1.5 Seconds</item>
+        <item>2.0 Seconds</item>
+    </string-array>
+    <string-array name="l_pref_delay_entryValues">
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+    </string-array>
+    <string name="l_settings_label">Settings</string>
+    <string name="pr_delay">delay</string>
+    <string name="pr_delay_title">Update Delay</string>
+    <string name="pr_delay_summary">for net and bcast addrs</string>
+    <string name="pr_delay_default">1000</string>
+    <string name="l_stop_adds_label">Stop Ads</string>
+    <string name="pr_ip_addr">ipAddr</string>
+    <string name="pr_ip_addr_title">Initial IP Address</string>
+    <string name="pr_ip_addr_summary">shown when the application starts</string>
+    <string name="pr_ip_addr_default">192.168.0.1</string>
+    <string name="pr_net_mask">netMask</string>
+    <string name="pr_net_mask_title">Initial Network Mask</string>
+    <string name="pr_net_mask_summary">shown when application starts</string>
+    <string name="pr_net_mask_default"></string>
+</resources>

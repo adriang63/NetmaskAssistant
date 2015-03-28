@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entryValues="@array/l_pref_delay_entryValues" android:entries="@array/l_pref_delay_entries" android:summary="@string/pr_delay_summary" android:key="@string/pr_delay" android:title="@string/pr_delay_title" android:defaultValue="@string/pr_delay_default"></ListPreference>
+    <EditTextPreference android:key="@string/pr_ip_addr" android:summary="@string/pr_ip_addr_summary" android:title="@string/pr_ip_addr_title" android:defaultValue="@string/pr_ip_addr_default"></EditTextPreference>
+    <EditTextPreference android:summary="@string/pr_net_mask_summary" android:key="@string/pr_net_mask" android:title="@string/pr_net_mask_title" android:defaultValue="@string/pr_net_mask_default"></EditTextPreference>
+</PreferenceScreen>
